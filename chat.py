@@ -25,12 +25,3 @@ def generate_response(prompt):
     except Exception as e:
         print(f"Error: {str(e)}")
         return None
-
-# Test the implementation
-if __name__ == "__main__":
-    print('Sending a test completion job')
-    start_phrase = 'Write a tagline for an ice cream shop.'
-    response = generate_response(start_phrase)
-    if response:
-        print(f"Prompt: {start_phrase}")
-        print(f"Response: {response}")
