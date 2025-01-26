@@ -339,8 +339,8 @@ class EnhancedForexDataCollector:
 
 def main():
     # API keys
-    exchangerate_api_key = "a05661a283e84cfac3b9b4c5"
-    alpha_vantage_key = "XFCXCZQPNCGK6URU"
+    exchangerate_api_key = "YOUR-API-KEY"
+    alpha_vantage_key = "YOUR-API-KEY"
     
     # Initialize collector
     collector = EnhancedForexDataCollector(exchangerate_api_key, alpha_vantage_key)
